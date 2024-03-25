@@ -1,0 +1,79 @@
+.App {
+  h1 {
+    font-size: calc(10px + 2vmin);
+    margin: 0em;
+    color: #70b7cf;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: calc(8px + 2vmin);
+    margin-top: 0em;
+    color: #555;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+
+  font-size: calc(10px + 2vmin);
+}
+
+html {
+  background-color: #44c3e5;
+}
+
+header {
+  margin: 5vh auto 0vh auto;
+  background-color: #fff;
+  max-width: 620px;
+  padding: 50px 50px 0;
+}
+
+main {
+  margin: 0vh auto 5vh auto;
+  background-color: #fff;
+  max-width: 620px;
+  padding: 10px 50px 50px;
+}
+
+form {
+  input[type="text"] {
+    border: 2px solid #dcdcdc;
+    color: #444;
+    font-size: 100%;
+    padding: 10px 15px;
+    display: block;
+    width: calc(100% - 34px);
+  }
+
+  input[type="submit"]{
+    margin-top: 25px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #44c5e4;
+    border: 1px solid #44c5e4;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 100%;
+    width: 100%;
+  }
+}
+
+button.deleteButton {
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  background-color: #aaa;
+  border: 1px solid #aaa;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 100%;
+  width: 100%;
+}
+

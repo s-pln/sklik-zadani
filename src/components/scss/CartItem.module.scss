@@ -1,0 +1,39 @@
+.ctrl {
+    margin-left: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #aaa;
+    border: 1px solid #aaa;
+    color: #fff;
+    padding: 3px 20px 3px;
+    text-decoration: none;
+    font-size: 95%;
+    display: inline-block;
+    line-height: 120%;
+}
+
+.ctrlEdit{
+    margin-left: 10px;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #44c5e4;
+    color: #fff;
+    padding: 3px 20px 3px;
+    text-decoration: none;
+    font-size: 95%;
+    display: inline-block;
+    line-height: 130%;
+}
+
+.cartItem {
+    list-style: none;
+    .cartLink {
+        color: #555;
+        font-weight: bold;
+        font-size: calc(8px + 1vmin);
+    }
+}

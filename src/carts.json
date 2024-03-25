@@ -1,0 +1,37 @@
+{
+    "cart": [
+            {
+            "id": 1,
+            "title": "Nákup v Tescu",
+            "uri": "nakup-v-tescu",
+            "items":
+            [ 
+                {
+                    "id": 1,
+                    "title": "ořechy"
+                },
+                {
+                    "id": 2,
+                    "title": "jabka"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Nákup v IKEA",
+            "uri": "nakup-v-ikea",
+            "items":
+            [
+                {
+                    "id": 1,
+                    "title": "zázvorníky"
+                },
+                {
+                    "id": 2,
+                    "title": "stolek"
+                }
+
+            ]
+        }
+    ]
+}
